@@ -1,0 +1,84 @@
+{
+  "title": "Pourquoi le ciel est bleu ?",
+  "theme": "pixel",
+  "format": "vertical",
+  "fps": 30,
+  "voice": {
+    "file": "voice.mp3",
+    "voiceId": "",
+    "model": "eleven_multilingual_v2"
+  },
+  "captions": true,
+  "scenes": [
+    {
+      "type": "hook",
+      "kicker": "SCIENCE EN 60 S",
+      "emoji": "☀️",
+      "title": "Pourquoi le ciel est **bleu** ?",
+      "say": "Pourquoi le ciel est-il bleu… alors que la lumière du Soleil est blanche ?"
+    },
+    {
+      "type": "bullets",
+      "title": "La lumière **blanche**",
+      "say": "En réalité, la lumière blanche est un mélange de toutes les couleurs. Et chaque couleur voyage sous forme d'onde : le rouge avec de grandes ondes, le bleu avec de petites ondes.",
+      "items": [
+        { "emoji": "🌈", "text": "Un **mélange** de couleurs", "at": "mélange" },
+        { "emoji": "🔴", "text": "Rouge : grandes ondes", "at": "le rouge avec" },
+        { "emoji": "🔵", "text": "Bleu : petites ondes", "at": "le bleu avec" }
+      ]
+    },
+    {
+      "type": "definition",
+      "kicker": "LE PHÉNOMÈNE",
+      "term": "Diffusion Rayleigh",
+      "definition": "Les molécules d'air **renvoient** la lumière dans toutes les directions.",
+      "definitionAt": "renvoient",
+      "say": "Quand cette lumière traverse l'atmosphère, elle rencontre les molécules d'air, qui la renvoient dans toutes les directions. C'est la diffusion Rayleigh."
+    },
+    {
+      "type": "stat",
+      "kicker": "BLEU VS ROUGE",
+      "prefix": "×",
+      "value": 5,
+      "label": "plus de diffusion pour le **bleu** que pour le rouge",
+      "countAt": "cinq fois",
+      "say": "Et surtout, les petites ondes sont beaucoup plus diffusées : le bleu est renvoyé environ cinq fois plus que le rouge !"
+    },
+    {
+      "type": "compare",
+      "title": "Résultat",
+      "left": { "label": "Bleu", "emoji": "🔵", "text": "éparpillé dans tout le ciel" },
+      "right": { "label": "Rouge", "emoji": "🔴", "text": "continue presque tout droit", "at": "tandis que" },
+      "say": "Résultat : le bleu est éparpillé dans tout le ciel et arrive à nos yeux de partout, tandis que le rouge continue presque tout droit."
+    },
+    {
+      "type": "bullets",
+      "title": "Et le **violet** ?",
+      "say": "Mais alors, pourquoi pas violet ? Parce que le Soleil en émet moins, et que nos yeux sont bien plus sensibles au bleu.",
+      "items": [
+        { "emoji": "☀️", "text": "Le Soleil en émet **moins**", "at": "émet moins" },
+        { "emoji": "👁️", "text": "Nos yeux préfèrent le **bleu**", "at": "nos yeux" }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Et au **coucher** du Soleil ?",
+      "numbered": true,
+      "say": "Et au coucher du Soleil, la lumière traverse beaucoup plus d'atmosphère : le bleu est dispersé en route, et il ne reste que l'orange et le rouge.",
+      "items": [
+        { "text": "La lumière traverse **plus** d'air", "at": "traverse beaucoup" },
+        { "text": "Le bleu se perd en route", "at": "dispersé" },
+        { "text": "Il reste l'**orange** et le **rouge**", "at": "il ne reste" }
+      ]
+    },
+    {
+      "type": "outro",
+      "emoji": "🌅",
+      "title": "Abonne-toi !",
+      "subtitle": "Le monde expliqué en **1 minute**",
+      "handle": "@ta_chaine",
+      "button": "S'ABONNER",
+      "say": "Abonne-toi pour comprendre le monde en une minute !"
+    }
+  ]
+}

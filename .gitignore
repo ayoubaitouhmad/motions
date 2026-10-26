@@ -1,0 +1,10 @@
+node_modules/
+out/
+.whisper/
+.env
+*.log
+.DS_Store
+
+# Voice files are usually big. Remove these two lines to commit them.
+public/episodes/**/*.mp3
+public/episodes/**/*.wav
